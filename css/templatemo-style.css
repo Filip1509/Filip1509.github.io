@@ -419,7 +419,7 @@ p, address {
 .tm-paging-item {
   list-style: none;
   display: inline-block;
-  border: 1px solid #2F956D;
+  border: 1px solid blue;
   margin: 7px;
 }
 
@@ -429,13 +429,13 @@ p, address {
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  color: #2F956D;
+  color: blue;
   background-color: transparent;
 }
 
 .tm-paging-link.active,
 .tm-paging-link:hover {
-  background-color: #2F956D;
+  background-color: blue;
   color: white;
 }
 
