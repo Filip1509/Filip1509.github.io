@@ -4,6 +4,7 @@ Simple House
 
 https://templatemo.com/tm-539-simple-house
 
+
 start of new*/
 @import url("https://fonts.googleapis.com/css?family=Barlow|Tomorrow:400,700&display=swap");
 
@@ -21,7 +22,7 @@ start of new*/
   height: 60px; 
   border: 0;
   outline: none;
-  background-color: var(--black-color);
+  background-color: var(--white-color);
   cursor: pointer;
   position: relative;
   font-family: Tomorrow, sans-serif;
@@ -210,6 +211,10 @@ start of new*/
 /* end of new
 
 */
+
+@media screen and (min-width: 600px)  {
+  .mobile-break { display: none; }
+}
 
 ul, nav, body, h1, h2, h4, h6, p, figure {
   margin: 0;
