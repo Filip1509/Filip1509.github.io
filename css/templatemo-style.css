@@ -6,6 +6,16 @@ https://templatemo.com/tm-539-simple-house
 
 
 start of new*/
+
+tml, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative
+}
+
+
+
 @import url("https://fonts.googleapis.com/css?family=Barlow|Tomorrow:400,700&display=swap");
 
 :root {
