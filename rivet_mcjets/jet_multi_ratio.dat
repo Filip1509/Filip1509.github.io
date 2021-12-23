@@ -1,0 +1,27 @@
+# BEGIN PLOT
+Legend=1
+LogY=0
+Title=Ratio of jet multiplicity
+XLabel=$N_{\text{jet}}$
+YLabel=$\sigma(\geq N_{\text{jet}})/\sigma(\geq N_{\text{jet}}-1)$
+XMajorTickMarks=10
+XMinorTickMarks=0
+ErrorBands=1
+DrawOnly=//home/maxinfilip/Rivet.yoda/MC_JETS/jet_multi_ratio
+LegendOnly=//home/maxinfilip/Rivet.yoda/MC_JETS/jet_multi_ratio
+# END PLOT
+
+# BEGIN HISTO1D //home/maxinfilip/Rivet.yoda/MC_JETS/jet_multi_ratio
+LineColor=red
+LineStyle=solid
+Path=//home/maxinfilip/Rivet.yoda/MC_JETS/jet_multi_ratio
+Title=Rivet
+# xlow	 xhigh	 val	 errminus	 errplus
+5.000000e-01	1.500000e+00	1.470300e-01	1.529981e-02	1.529981e-02
+1.500000e+00	2.500000e+00	1.192444e-01	2.520838e-02	2.520838e-02
+2.500000e+00	3.500000e+00	8.437481e-02	3.111354e-02	3.111354e-02
+3.500000e+00	4.500000e+00	4.345548e-02	4.285958e-02	4.285958e-02
+4.500000e+00	5.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+5.500000e+00	6.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+

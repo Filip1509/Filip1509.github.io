@@ -1,0 +1,29 @@
+# BEGIN PLOT
+Legend=1
+LogY=1
+Title=Exclusive jet multiplicity
+XLabel=$N_{\text{jet}}$
+YLabel=$\sigma(N_{\text{jet}})$ [pb]
+XMajorTickMarks=10
+XMinorTickMarks=0
+ErrorBands=1
+DrawOnly=//home/maxinfilip/Rivet.yoda/MC_JETS/jet_multi_exclusive
+LegendOnly=//home/maxinfilip/Rivet.yoda/MC_JETS/jet_multi_exclusive
+# END PLOT
+
+# BEGIN HISTO1D //home/maxinfilip/Rivet.yoda/MC_JETS/jet_multi_exclusive
+LineColor=red
+LineStyle=solid
+Path=//home/maxinfilip/Rivet.yoda/MC_JETS/jet_multi_exclusive
+ScaledBy=1.55613332238651157e+37
+Title=Rivet
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	1.489226e+08	5.836168e+06	5.836168e+06
+5.000000e-01	1.500000e+00	2.260935e+07	1.720086e+06	1.720086e+06
+1.500000e+00	2.500000e+00	2.802777e+06	4.315802e+05	4.315802e+05
+2.500000e+00	3.500000e+00	2.470522e+05	5.786779e+04	5.786779e+04
+3.500000e+00	4.500000e+00	1.122349e+04	8.527756e+03	8.527756e+03
+4.500000e+00	5.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+5.500000e+00	6.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+

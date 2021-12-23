@@ -1,0 +1,68 @@
+# BEGIN PLOT
+Legend=1
+LogY=0
+Title=TransMAX region charged pT sum density
+XLabel=Leading jet $p_\perp$ / GeV
+YLabel=$\mathrm{d}{\sum p_\perp^\text{sum}}/\mathrm{d}{\phi}$
+DrawOnly=//home/maxinfilip/Rivet.yoda/MC_LEADJETUE/trans-maxptsum
+LegendOnly=//home/maxinfilip/Rivet.yoda/MC_LEADJETUE/trans-maxptsum
+# END PLOT
+
+# BEGIN HISTO1D //home/maxinfilip/Rivet.yoda/MC_LEADJETUE/trans-maxptsum
+LineColor=red
+LineStyle=solid
+Path=//home/maxinfilip/Rivet.yoda/MC_LEADJETUE/trans-maxptsum
+Title=Rivet
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	1.000000e+01	3.618526e-01	4.315830e-02	4.315830e-02
+1.000000e+01	2.000000e+01	5.461177e-01	6.051264e-02	6.051264e-02
+2.000000e+01	3.000000e+01	5.617515e-01	9.295697e-02	9.295697e-02
+3.000000e+01	4.000000e+01	7.862225e-01	2.599736e-01	2.599736e-01
+4.000000e+01	5.000000e+01	1.329563e+00	5.450320e-01	5.450320e-01
+5.000000e+01	6.000000e+01	8.874800e-01	7.565051e-01	7.565051e-01
+6.000000e+01	7.000000e+01	5.791023e-01	2.374430e-01	2.374430e-01
+7.000000e+01	8.000000e+01	4.551470e-01	1.319034e+00	1.319034e+00
+8.000000e+01	9.000000e+01	3.944617e+00	2.537989e+00	2.537989e+00
+9.000000e+01	1.000000e+02	4.783950e-01	7.319598e-01	7.319598e-01
+1.000000e+02	1.100000e+02	6.983490e-01	nan	nan
+1.100000e+02	1.200000e+02	0.000000e+00	nan	nan
+1.200000e+02	1.300000e+02	nan	nan	nan
+1.300000e+02	1.400000e+02	nan	nan	nan
+1.400000e+02	1.500000e+02	nan	nan	nan
+1.500000e+02	1.600000e+02	nan	nan	nan
+1.600000e+02	1.700000e+02	nan	nan	nan
+1.700000e+02	1.800000e+02	nan	nan	nan
+1.800000e+02	1.900000e+02	nan	nan	nan
+1.900000e+02	2.000000e+02	nan	nan	nan
+2.000000e+02	2.100000e+02	nan	nan	nan
+2.100000e+02	2.200000e+02	nan	nan	nan
+2.200000e+02	2.300000e+02	nan	nan	nan
+2.300000e+02	2.400000e+02	nan	nan	nan
+2.400000e+02	2.500000e+02	nan	nan	nan
+2.500000e+02	2.600000e+02	nan	nan	nan
+2.600000e+02	2.700000e+02	nan	nan	nan
+2.700000e+02	2.800000e+02	nan	nan	nan
+2.800000e+02	2.900000e+02	nan	nan	nan
+2.900000e+02	3.000000e+02	nan	nan	nan
+3.000000e+02	3.100000e+02	nan	nan	nan
+3.100000e+02	3.200000e+02	nan	nan	nan
+3.200000e+02	3.300000e+02	nan	nan	nan
+3.300000e+02	3.400000e+02	nan	nan	nan
+3.400000e+02	3.500000e+02	nan	nan	nan
+3.500000e+02	3.600000e+02	nan	nan	nan
+3.600000e+02	3.700000e+02	nan	nan	nan
+3.700000e+02	3.800000e+02	nan	nan	nan
+3.800000e+02	3.900000e+02	nan	nan	nan
+3.900000e+02	4.000000e+02	nan	nan	nan
+4.000000e+02	4.100000e+02	nan	nan	nan
+4.100000e+02	4.200000e+02	nan	nan	nan
+4.200000e+02	4.300000e+02	nan	nan	nan
+4.300000e+02	4.400000e+02	nan	nan	nan
+4.400000e+02	4.500000e+02	nan	nan	nan
+4.500000e+02	4.600000e+02	nan	nan	nan
+4.600000e+02	4.700000e+02	nan	nan	nan
+4.700000e+02	4.800000e+02	nan	nan	nan
+4.800000e+02	4.900000e+02	nan	nan	nan
+4.900000e+02	5.000000e+02	nan	nan	nan
+# END HISTO1D
+

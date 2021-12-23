@@ -1,0 +1,23 @@
+# BEGIN PLOT
+Legend=1
+LogY=0
+Title=Total generated cross section
+XLabel=
+YLabel=$\sigma_\text{total}$ [pb]
+ShowZero=0
+XCustomMajorTicks=0.	$\quad$
+XMinorTickMarks=0
+LegendAlign=r
+DrawOnly=//home/maxinfilip/Rivet.yoda/MC_XS/XS
+LegendOnly=//home/maxinfilip/Rivet.yoda/MC_XS/XS
+# END PLOT
+
+# BEGIN HISTO1D //home/maxinfilip/Rivet.yoda/MC_XS/XS
+LineColor=red
+LineStyle=solid
+Path=//home/maxinfilip/Rivet.yoda/MC_XS/XS
+Title=Rivet
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	1.745930e+08	0.000000e+00	0.000000e+00
+# END HISTO1D
+

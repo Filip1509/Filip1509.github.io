@@ -1,0 +1,95 @@
+<html>
+<head>
+<title>Plots from Rivet analyses &ndash; MC_LEADJETUE</title>
+<style>
+      html { font-family: sans-serif; }
+      img { border: 0; }
+      a { text-decoration: none; font-weight: bold; }
+    </style>
+            <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          tex2jax: {inlineMath: [["$","$"]]}
+        });
+        </script>
+        <script type="text/javascript" async
+          src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        </script>
+        
+
+        <script type="text/javascript">
+            function filterPlots(ana, patt) {
+                var regex = new RegExp(patt);
+                var sec = document.getElementById('ana_'+ana);
+                var plots = sec.getElementsByClassName('plot');
+                var i; for (i = 0; i < plots.length; ++i) {
+                    // var viz = (regex.test(plots[i].id)) ? 'visible' : 'hidden';
+                    // plots[i].style.visibility = viz;
+                    var dis = (regex.test(plots[i].id)) ? 'block' : 'none';
+                    plots[i].style.display = dis;
+                }
+                return false;
+           }
+        </script>
+        </head>
+<body>
+<section id="ana_MC_LEADJETUE">
+<h3>MC_LEADJETUE</h3>
+<p><a href="../index.html">Back to index</a></p>
+<p>
+  Rick Field's measurement of the underlying event in leading jet events, extended to the LHC. As usual, the leading jet of the defines an azimuthal toward/transverse/away decomposition, in this case the event is accepted within $|\eta| &lt; 2$, as in the CDF 2008 version of the analysis. Since this isn't the Tevatron, I've chosen to use $k_\perp$ rather than midpoint jets.
+</p>
+<form onsubmit="var patt = document.getElementById('patt_MC_LEADJETUE').value; filterPlots('MC_LEADJETUE', patt); return false;">
+<span>Filter plots:&nbsp;</span><input id="patt_MC_LEADJETUE" type="search">
+<input type="submit" value="Filter">
+</form>
+
+  <div class="plot" id="plot_trans-maxnchg" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_LEADJETUE-trans-maxnchg">&#9875;</a><a href="trans-maxnchg.dat">&#8984</a> trans-maxnchg:<br/>
+    <a name="MC_LEADJETUE-trans-maxnchg"><a href="trans-maxnchg.pdf">
+      <img src="trans-maxnchg.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_trans-maxptsum" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_LEADJETUE-trans-maxptsum">&#9875;</a><a href="trans-maxptsum.dat">&#8984</a> trans-maxptsum:<br/>
+    <a name="MC_LEADJETUE-trans-maxptsum"><a href="trans-maxptsum.pdf">
+      <img src="trans-maxptsum.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_trans-minnchg" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_LEADJETUE-trans-minnchg">&#9875;</a><a href="trans-minnchg.dat">&#8984</a> trans-minnchg:<br/>
+    <a name="MC_LEADJETUE-trans-minnchg"><a href="trans-minnchg.pdf">
+      <img src="trans-minnchg.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_trans-minptsum" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_LEADJETUE-trans-minptsum">&#9875;</a><a href="trans-minptsum.dat">&#8984</a> trans-minptsum:<br/>
+    <a name="MC_LEADJETUE-trans-minptsum"><a href="trans-minptsum.pdf">
+      <img src="trans-minptsum.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_trans-nchg" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_LEADJETUE-trans-nchg">&#9875;</a><a href="trans-nchg.dat">&#8984</a> trans-nchg:<br/>
+    <a name="MC_LEADJETUE-trans-nchg"><a href="trans-nchg.pdf">
+      <img src="trans-nchg.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_trans-ptavg" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_LEADJETUE-trans-ptavg">&#9875;</a><a href="trans-ptavg.dat">&#8984</a> trans-ptavg:<br/>
+    <a name="MC_LEADJETUE-trans-ptavg"><a href="trans-ptavg.pdf">
+      <img src="trans-ptavg.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_trans-ptsum" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_LEADJETUE-trans-ptsum">&#9875;</a><a href="trans-ptsum.dat">&#8984</a> trans-ptsum:<br/>
+    <a name="MC_LEADJETUE-trans-ptsum"><a href="trans-ptsum.pdf">
+      <img src="trans-ptsum.png">
+    </a></a>
+  </div>
+</section>
+
+<footer style="clear:both; margin-top:3em; padding-top:3em">
+<p>Generated at Thursday, 23. December 2021 02:28AM</p>
+</footer>
+
+</body>
+</html>
