@@ -1,0 +1,33 @@
+# BEGIN PLOT
+LegendOnly=//home/maxin/jewel_old/vac-test/Rivet.yoda/MC_JETS/jet_eta_pmratio_4
+DrawOnly=//home/maxin/jewel_old/vac-test/Rivet.yoda/MC_JETS/jet_eta_pmratio_4
+Title=Pseudorapidity $+/-$ ratio of fourth jet
+LogY=1
+XLabel=$|\eta(\text{jet 4}|$
+YLabel=$\eta(\text{jet 4})_+/\eta(\text{jet 4})_-$
+Legend=1
+# END PLOT
+
+# BEGIN HISTO1D //home/maxin/jewel_old/vac-test/Rivet.yoda/MC_JETS/jet_eta_pmratio_4
+LineColor=red
+LineStyle=solid
+Path=//home/maxin/jewel_old/vac-test/Rivet.yoda/MC_JETS/jet_eta_pmratio_4
+Title=Rivet
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	3.333334e-01	9.173030e-01	1.940823e-01	1.940823e-01
+3.333333e-01	6.666667e-01	9.916414e-01	2.136695e-01	2.136695e-01
+6.666666e-01	1.000000e+00	9.903611e-01	2.216859e-01	2.216859e-01
+1.000000e+00	1.333334e+00	8.999726e-01	2.271795e-01	2.271795e-01
+1.333333e+00	1.666667e+00	8.900268e-01	2.320754e-01	2.320754e-01
+1.666666e+00	2.000000e+00	1.086440e+00	3.392550e-01	3.392550e-01
+2.000000e+00	2.333334e+00	8.036762e-01	2.690650e-01	2.690650e-01
+2.333333e+00	2.666667e+00	5.116392e-01	2.420122e-01	2.420122e-01
+2.666666e+00	3.000000e+00	4.195851e-01	2.071029e-01	2.071029e-01
+3.000000e+00	3.333334e+00	1.335588e+00	1.011997e+00	1.011997e+00
+3.333333e+00	3.666667e+00	4.796478e-01	4.079196e-01	4.079196e-01
+3.666666e+00	4.000000e+00	8.193066e-01	8.495252e-01	8.495252e-01
+4.000000e+00	4.333334e+00	9.641989e-01	1.120920e+00	1.120920e+00
+4.333333e+00	4.666667e+00	nan	nan	nan
+4.666666e+00	5.000000e+00	nan	nan	nan
+# END HISTO1D
+

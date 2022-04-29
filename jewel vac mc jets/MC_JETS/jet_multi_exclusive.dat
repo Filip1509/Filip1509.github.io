@@ -1,0 +1,29 @@
+# BEGIN PLOT
+LegendOnly=//home/maxin/jewel_old/vac-test-withvac/Rivet.yoda/MC_JETS/jet_multi_exclusive
+DrawOnly=//home/maxin/jewel_old/vac-test-withvac/Rivet.yoda/MC_JETS/jet_multi_exclusive
+Title=Exclusive jet multiplicity
+XMajorTickMarks=10
+LogY=1
+ErrorBands=1
+XMinorTickMarks=0
+YLabel=$\sigma(N_{\text{jet}})$ [pb]
+XLabel=$N_{\text{jet}}$
+Legend=1
+# END PLOT
+
+# BEGIN HISTO1D //home/maxin/jewel_old/vac-test-withvac/Rivet.yoda/MC_JETS/jet_multi_exclusive
+LineColor=red
+LineStyle=solid
+Path=//home/maxin/jewel_old/vac-test-withvac/Rivet.yoda/MC_JETS/jet_multi_exclusive
+ScaledBy=1.24300950964295044e+12
+Title=Rivet
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	0.000000e+00	0.000000e+00	0.000000e+00
+5.000000e-01	1.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+1.500000e+00	2.500000e+00	4.076783e+03	1.640207e+02	1.640207e+02
+2.500000e+00	3.500000e+00	5.426302e+03	1.834472e+02	1.834472e+02
+3.500000e+00	4.500000e+00	3.291108e+03	1.414485e+02	1.414485e+02
+4.500000e+00	5.500000e+00	1.507436e+03	9.591642e+01	9.591642e+01
+5.500000e+00	6.500000e+00	4.387087e+02	4.682958e+01	4.682958e+01
+# END HISTO1D
+
