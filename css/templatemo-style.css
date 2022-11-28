@@ -516,7 +516,7 @@ p, address {
 
 .tm-nav {
   text-align: right;
-  margin-top: 30px;
+  margin-top: 60px; /*to move it a bit lower, originally 30 */
 }
 
 .tm-nav-ul {
